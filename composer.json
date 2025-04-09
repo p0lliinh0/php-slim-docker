@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Application\\" : "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7",
+        "doctrine/orm": "^3.0",
+        "doctrine/dbal": "^4.0",
+        "symfony/cache": "^7.2",
+        "uma/dic": "^4.0"
+    }
+}
